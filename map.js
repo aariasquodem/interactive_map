@@ -264,7 +264,6 @@ new svgMap({
         }
     },
     mouseWheelZoomEnabled: true,
-    // mouseWheelZoomWithKey: true,
     hideFlag: true,             
     colorMax: '#003FE2',
     colorMin: '#003FE2',
@@ -273,4 +272,8 @@ new svgMap({
         EH: false
     },
     noDataText: 'No Data At This Time',
+    initialZoom: 2,
+    maxZoom: 4,
+    minZoom: 2,
+    initialPan: {x: 30, y: 60}
 });
